@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: sans-serif;
+}
+body{
+  background: linear-gradient(45deg,#4158d0,#009afa);;
+}
+.bigContainer{
+  background-color: #7eb1d7ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  
+}
+
+.imputDiv{
+  margin: 50px 0 50px;
+}
+
+.table100-head{
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  background-color: #0000;
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #8b8484;}
+table tbody tr {
+    height: 50px;
+}
+.column1{
+  width: 70px;
+  padding-left: 40px;
+}
+.column2{
+  width: 80px;
+}
+.column3{
+  width: 500px;
+}
+.column4{
+  width: 200px;
+  text-align: center;
+}
+.column5{
+  width: 80px;
+  text-align: center; 
+}
+.column6{
+  width: 100px;
+  text-align: center; 
+}
+.column7{
+  width: 70px;
+  text-align: center; 
+}
+.column8{
+  width: 70px;
+  text-align: center;
+  padding-right: 62px;
+}
+#lst{
+  display: table;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+#csvFileInput[type="file"]{
+  height: 50px;
+  width: 300px;
+  cursor: pointer;
+  display: none;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #357ba7;
+    border: none;
+}
+#uploadButton{
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #357ba7;
+  border: none;
+  height: 18px;
+  margin-left: 50px;
+  
+}
