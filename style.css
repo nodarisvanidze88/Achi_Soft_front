@@ -16,6 +16,8 @@ body{
   margin-top: 50px;
   margin-left: 250px;
   margin-right: 250px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   
 }
 
@@ -27,7 +29,9 @@ body{
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
-  background-color: #0000;
+  background: #000;
+  border-color:#000;
+  backface-visibility: visible;
 }
 th, td {
   border-bottom: 1px solid #ddd;
@@ -38,7 +42,10 @@ table tbody tr {
 }
 .column1{
   width: 70px;
-  padding-left: 40px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  
 }
 .column2{
   width: 80px;
@@ -65,7 +72,15 @@ table tbody tr {
 .column8{
   width: 70px;
   text-align: center;
-  padding-right: 62px;
+}
+.column9{
+  width: 80px;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: none;
+
+  
 }
 #lst{
   display: table;
@@ -85,15 +100,9 @@ table tbody tr {
     cursor: pointer;
     background-color: #357ba7;
     border: none;
+    border-radius: 5px;
 }
-#uploadButton{
-  display: inline-block;
-  padding: 6px 12px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #357ba7;
-  border: none;
-  height: 18px;
-  margin-left: 50px;
-  
+.tablehead{
+  background: #0000;
 }
+
